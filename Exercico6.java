@@ -12,7 +12,7 @@ class Veiculo {
         this.ano = ano;
     }
 
-    @Override
+    
     public String toString() {
         return "Veiculo{marca='" + marca + "', ano=" + ano + "}";
     }
@@ -26,7 +26,7 @@ class Carro extends Veiculo {
         this.portas = portas;
     }
 
-    @Override
+    
     public String toString() {
         return "Carro{marca='" + marca + "', ano=" + ano + ", portas=" + portas + "}";
     }
@@ -40,7 +40,7 @@ class Moto extends Veiculo {
         this.cilindradas = cilindradas;
     }
 
-    @Override
+    
     public String toString() {
         return "Moto{marca='" + marca + "', ano=" + ano + ", cilindradas=" + cilindradas + "}";
     }
